@@ -32,6 +32,6 @@ public class CustomListTest {
         list.addCity(calgary);
         list.addCity(edmonton);
         // This will fail initially because deleteCity() doesn't exist
-        assert(list.countCities == 2);
+        assert(list.countCities() == 2);
     }
 }
