@@ -17,4 +17,7 @@ public class CustomList {
         return cities.contains(city);
     }
 
+    public void deleteCity(City calgary) {
+        cities.remove(calgary);
+    }
 }
